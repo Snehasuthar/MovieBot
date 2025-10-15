@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎬 Movie Recommendation System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎥 Movie Recommendation System</h1>
+
+        <div class="search-box">
+            <input type="text" id="movieInput" placeholder="Search for a movie...">
+            <div id="suggestions"></div>
+        </div>
+
+        <button id="recommendBtn">Get Recommendations</button>
+
+        <h2>⭐ Recommended Movies:</h2>
+        <ul id="recommendations">
+            {% for movie in famous_movies %}
+            <li class="movie-item">{{ movie }}</li>
+            {% endfor %}
+        </ul>
+
+        <div id="movieDetails" class="hidden">
+            <h2 id="movieTitle"></h2>
+            <p><strong>⭐ Rating:</strong> <span id="movieRating"></span></p>
+            <p><strong>🗓 Release Date:</strong> <span id="movieRelease"></span></p>
+            <p><strong>📝 Overview:</strong></p>
+            <p id="movieOverview"></p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
