@@ -1,0 +1,23 @@
+# Core Web Framework
+Flask==3.0.3
+
+# Data Handling
+pandas==2.2.3
+numpy==1.26.4
+
+# Machine Learning / NLP
+scikit-learn==1.5.2
+
+# Fuzzy Matching
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.1   # Makes fuzzywuzzy fast
+
+# Utilities
+gunicorn==23.0.0             # For deployment (Render/Heroku)
+Werkzeug==3.0.4
+
+# Optional but helpful for model training
+tqdm==4.66.5
+
+# Environment (optional for development)
+python-dotenv==1.0.1
