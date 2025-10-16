@@ -65,12 +65,12 @@ MovieRecommendationSystem/
 
 ### 🏠 Home Page
 <p align="center">
-  <img src="https://github.com/aryamehta0302/MovieBot/assets/home_page.png" width="80%" alt="Home Page">
+  <img src="assets/home_page.png" width="80%">
 </p>
 
 ### 🎬 Movie Details + Recommendations
 <p align="center">
-  <img src="https://github.com/aryamehta0302/MovieBot/assets/movie_details.png" width="80%" alt="Movie Details">
+  <img src="assets/movie_details.png" width="80%">
 </p>
 
 ---
